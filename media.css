@@ -1,0 +1,331 @@
+
+/* small phone, medium phone and large phone */
+@media only screen and (max-width: 600px) { 
+
+    /* header sectioon*/
+
+    header{
+        padding: 10px 8px;
+    }
+    .flex{
+        display: block;
+    }
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .logo h2{
+        font-size: 18px;
+    }
+    .logo h2 span{
+        font-size: 18px;
+    }
+    nav{
+        width:  100%;
+        margin: auto;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav ul li a{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .content-banner{
+        padding: 80px 0;
+    }
+    .content-banner h3{
+        font-size: 20px;
+    }
+    .content-banner span{
+        width: 100px;
+        height: 4px;
+        margin-top: 5px;
+    }
+    .content-banner h1{
+        font-size: 35px;
+        font-weight: 500;
+        margin: 0;
+        padding: 25px 0;
+    }
+    .content-banner a{
+        padding: 8px;
+        letter-spacing: 0;
+        border-radius: 4px;
+    }
+
+
+    /* upcoming section */
+    .event{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .event span{
+        width: 120px;
+        margin-top: 4px;
+    }
+    .col-1-2{
+        padding: 30px;
+    }
+    .col-1-2 img{
+        margin: auto;
+        height: 250px;
+        width: 90%;
+    }
+    .col-1-2 h2{
+        font-size: 25px;
+    }
+    .col-1-2 p{
+        font-size: 17px;
+    }
+    .col-1-2 a{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+
+    /* explore the world section */
+
+    .explore-section{
+        padding: 100px 0;
+        margin-top: 0px;
+    }
+    .explore-flex{
+        display: block;
+    }
+    .column{
+        margin: 0 0 0 65px;
+    }
+    .column h2{
+        font-size: 40px;
+    }
+    .column span{
+        width: 100px;
+        height: 4px;
+        margin: 5px 0 20px 0;
+    }
+    .column p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .column a{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    /* tour-section */
+    .tour-section{
+        padding: 40px 0 0 0;
+    }
+    .column-1-2-3{
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    .column-1-2-3 span{
+        height: 4px;
+        margin: 5px 0 20px 0;
+    }
+    .column-1-2-3 p{
+        margin-bottom: 10px;
+    }
+    .column-1-2-3 a{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .small{
+        height: 300px;
+        border-radius: 4px;
+    }
+    .big{
+        height: 300px;
+        border-radius: 4px;
+    }
+
+
+    /* footer section */
+    .footer-content{
+        padding: 50px 0 30px 0;
+    }
+    .footer-content h2{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .footer-content p a{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .footer-nav ul li a{
+        font-size: 17px;
+        font-weight: 500;
+        color: white;
+        padding: 5px 10px;
+    }
+    .footer-icon a{
+        font-size: 25px;
+    }
+    
+}
+
+/* tab device media query */
+@media only screen and (min-width: 601px) and (max-width:768px){
+    /* header design starts here */
+
+    header{
+        padding: 0;
+    }
+    .container{
+        width: 96%;
+    }
+    .logo{
+        width: 40%;
+        padding: 10px 0 0 0;
+    }
+    .logo h2{
+        font-size: 25px;
+    }
+    .logo h2 span{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    nav{
+        width:  60%;
+    }
+    nav ul{
+        padding: 25px 0 0 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 8px;
+    }
+    
+    /* banner section */
+    .content-banner{
+        padding: 100px 0;
+    }
+    .content-banner h3{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .content-banner h1{
+        font-size: 40px;
+    }
+    .content-banner a{
+        border-radius: 100px;
+    }
+    .content-banner a:hover{
+        background-color: rgba(0, 0, 255, 0);
+        border: 1px solid #FB2259;
+    }
+    /* header design ends here */
+    
+    /* upcoming section starts here */
+    .event{
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .feature-flex{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .col-1-2{
+        padding: 20px;
+    }
+    .col-1-2 h2{
+        font-size: 25px;
+        margin: 20px 0 10px 0;
+    }
+    .col-1-2 p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .col-1-2 a{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    /* upcoming section ends here */
+    
+    /* explore the world design starts here */
+    .explore-section{
+        padding: 100px 0;
+        margin-top: 50px;
+    }
+    .explore-flex{
+        display: block;
+        justify-content: center;
+    }
+    .column{
+        width: 100%;
+    }
+    .column h2{
+        font-size: 50px;
+    }
+    .column a{
+        letter-spacing: 1px;
+    }
+
+
+    .column-1-2-3 span{
+        height: 4px;
+    }
+    .column-1-2-3 p{
+        font-size: 17px;
+    }
+    .small{
+        height: 400px;
+    }
+    .big{
+        height: 400px;
+    }
+    /* explore the world design ends here */
+    
+    /* footer design starts here */
+    .footer-content{
+        padding: 50px 0 30px 0;
+    }
+    .footer-content h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .footer-nav{
+        width: 100%;
+        margin: auto;
+    }
+    .footer-content p a{
+        font-weight: 600;
+    }
+    .footer-nav ul li a{
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+}
+
+/* small laptop, squire monitor */
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1440px){
+    h1{
+        font-size: 60px;
+    }
+}
